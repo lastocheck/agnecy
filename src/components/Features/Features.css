@@ -1,0 +1,33 @@
+.Features {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.Features section {
+    padding: 0;
+    width: 600px;
+}
+
+.Features h1 {
+    color: #585858;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 55px;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.Features p {
+    width: 520px;
+    margin-bottom: 40px;
+}
+
+.all-features {
+    display: flex;
+    flex-wrap: wrap;
+}

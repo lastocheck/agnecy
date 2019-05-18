@@ -1,0 +1,17 @@
+.FeatureBlock {
+    width: 275px;
+    color: #585858;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.FeatureBlock h3 {
+    font-size: 24px;
+    margin: 10px 0 10px 0;
+}
+
+.FeatureBlock p {
+    width: 275px;
+    font-size: 16px;
+    margin: 0;
+}
