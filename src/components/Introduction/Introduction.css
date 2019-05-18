@@ -1,0 +1,39 @@
+.Introduction {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 1250px;
+}
+
+.Introduction h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.wide-tracking {
+    letter-spacing: 10px;  
+}
+
+.Introduction section {
+    padding: 0;
+    width: 600px;
+}
+
+.Introduction p {
+    width: 520px;
+    margin-bottom: 60px;
+}
+
+.video-introduction {
+    display: flex;
+    justify-content: right;
+}
+
+.video-introduction img {
+    margin-top: 15px;
+    box-shadow: 0 0 80px 30px rgba(0, 0, 0, 0.3);
+}
