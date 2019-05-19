@@ -1,5 +1,4 @@
 import React from 'react'
-import RedButton from '../RedButton/RedButton';
 import './Features.css'
 import FeatureBlock from './FeatureBlock/FeatureBlock';
 import settingsIcon from '../../img/settings.png';
@@ -13,7 +12,7 @@ const Features = () => (
             <h1>do you know we can provide for you?</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit amet, 
                 consectetur adipis cing elit, ed doi eiusmod tempor incididunt ut labore et.</p>
-            <RedButton text="Learn More" onClick={() => {}} />
+            <button className="red-button" onClick={() => {}}>Learn More</button>
         </section>
         <section className="all-features">
             <FeatureBlock src={settingsIcon} 

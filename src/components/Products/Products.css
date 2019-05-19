@@ -1,0 +1,18 @@
+.Products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Products h1 {
+    color: #585858;
+    font-size: 42px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.Products p {
+    font-size: 14px;
+    width: 500px;
+    text-align: center;
+}

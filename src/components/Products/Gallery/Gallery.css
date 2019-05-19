@@ -1,0 +1,31 @@
+.gallery-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.gallery-nav button {
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 12px 0 12px;
+}
+
+.gallery-nav button:hover {
+    cursor: pointer;
+    color: #878787;
+}
+
+.gallery-pics {
+    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-pics img {
+    margin: 12px;
+    transition: opacity 1s;
+}
